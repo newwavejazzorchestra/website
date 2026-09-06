@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<articles>
+    <article>
+        <image></image>
+        <title>This is title.</title>
+        <dates>2026-06-06 , 2026-07-22</dates>
+        <paragraph>
+            <![CDATA[
+                <p>
+                    This is paragraph.<br>
+                    You can use any HTML tags.
+                </p>
+            ]]>
+        </paragraph>
+    </article>
+    <article>
+        <image></image>
+        <title>This is title.</title>
+        <dates>2026-05-30/2026-06-06 , 2026-07-22, 2026-08-01</dates>
+        <paragraph>
+            <![CDATA[
+                <p>
+                    This is paragraph.
+                </p>
+            ]]>
+        </paragraph>
+    </article>
+</articles>

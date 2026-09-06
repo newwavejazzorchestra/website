@@ -1,0 +1,34 @@
+name: google-drive
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v4
+      - name: install rclone
+        run: |
+          sudo curl https://rclone.org/install.sh | sudo bash
+      - name: setup rclone config
+        run: |
+          mkdir -p ~/.config/rclone
+          cat << 'EOF' > ~/.config/rclone/rclone.conf
+          ${{secrets.RCLONE_CONF}}
+          EOF
+      - name: sync resources
+        run: |
+          rclone sync gdrive:resources resources --progress
+      - name: commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add resources
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "chore: Sync resources from Google Drive [skip ci]"
+            git push origin HEAD:${{github.ref}}
+          else
+            echo "Repository is up to date"
+          fi

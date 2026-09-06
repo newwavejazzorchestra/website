@@ -1,0 +1,34 @@
+body > main > article > ol {
+    padding-inline: 0;
+    list-style: none;
+}
+
+body > main > article > ol > li {
+    margin-inline: 0;
+    width: 100%;
+}
+
+body > main > article > ol > li > article {
+    margin: 0;
+    border: none;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body > main > article > ol > li > article > img {
+    margin-inline: 0;
+    border: none;
+    padding-inline: 0;
+    width: 100%;
+}
+
+body > main > article > ol > li > article > ul {
+    list-style: none;
+    padding-inline: 0;
+}
+
+body > main > article > ol > li > article > ul > li {
+    display: inline-block;
+    margin: 2.5px;
+}
