@@ -26,10 +26,8 @@ jobs:
         run: |
           rclone sync gdrive:resources resources --progress
       - name: generate gallery index
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         run: |
-          node .github/workflows/src/GalleryIndexGenerator.js
+          node .github/workflows/src/script/GalleryIndexGenerator.js
       - name: commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
