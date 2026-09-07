@@ -1,3 +1,5 @@
+let noimage = document.currentScript.getAttribute("data-noimage");
+
 class MemberList extends HTMLElement {
     constructor() {
         super();
@@ -44,7 +46,16 @@ class MemberList extends HTMLElement {
                         let dd = document.createElement("dd");
                         let img = document.createElement("img");
                         let image = xmlMembers[i].querySelector("image").textContent;
-                        img.setAttribute("src", "../resources/members/" + image);
+
+                        if(image) {
+                            img.setAttribute("src", "resources/members/" + image);
+                        } else {
+                            img.setAttribute("src", noimage);
+                        }
+                        img.onerror = () => {
+                            img.setAttribute("src", noimage);
+                            img.onerror = null;
+                        };
                         img.setAttribute("alt", "image");
                         dd.appendChild(img);
                         dl.appendChild(dd);

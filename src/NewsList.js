@@ -1,3 +1,5 @@
+const noimage = document.currentScript.getAttribute("data-noimage");
+
 class NewsList extends HTMLElement {
     constructor() {
         super();
@@ -30,7 +32,16 @@ class NewsList extends HTMLElement {
                 
                 let img = document.createElement("img");
                 let image = xmlArticles[i].querySelector("image").textContent;
-                img.setAttribute("src", "../resources/news/" + image);
+
+                if(image) {
+                    img.setAttribute("src", "resources/news/" + image);
+                } else {
+                    img.setAttribute("src", noimage);
+                }
+                img.onerror = () => {
+                    img.setAttribute("src", noimage);
+                    img.onerror = null;
+                };
                 img.setAttribute("alt", "image");
                 article.appendChild(img);
                 
