@@ -10,29 +10,7 @@ class ImageList extends HTMLElement {
     }
 
     handleEvent(event) {
-        let paths = this.imagePaths();
-
-        let ul = document.createElement("ul");
-        for(let i = 0; i < paths.length; i++) {
-            let li = document.createElement("li");
-            let img = document.createElement("img");
-            img.setAttribute("src", paths[i]);
-            img.onerror = () => {
-                img.setAttribute("src", noimage);
-                img.onerror = null;
-            };
-            img.setAttribute("alt", "image");
-            li.appendChild(img);
-            ul.appendChild(li);
-        }
-        this.parentElement.insertBefore(ul, this);
-        this.remove();
-    }
-
-    imagePaths() {
-        let url = "https://api.github.com/repos/newwavejazzorchestra/website/contents/resources/gallery/";
-
-        return fetch(url)
+        fetch("resources/gallery/index.json")
         .then(response => {
             if(response.ok) {
                 return response.json();   
@@ -40,15 +18,22 @@ class ImageList extends HTMLElement {
                 return [];
             }
         })
-        .then(json => {
-            let regex = /\.(jpg|jpeg|png|gif|webp)$/i;
-
-            if(Array.isArray(json)) {
-                return json.filter(file => file.type == "file" && regex.test(file.path))
-                .map(file => file.path);
-            } else {
-                return [];
+        .then(images => {
+            let ul = document.createElement("ul");
+            for(let i = 0; i < images.length; i++) {
+                let li = document.createElement("li");
+                let img = document.createElement("img");
+                img.setAttribute("src", "resources/gallery/" + images[i]);
+                img.onerror = () => {
+                    img.setAttribute("src", noimage);
+                    img.onerror = null;
+                };
+                img.setAttribute("alt", "image");
+                li.appendChild(img);
+                ul.appendChild(li);
             }
+            this.parentElement.insertBefore(ul, this);
+            this.remove();
         });
     }
 }

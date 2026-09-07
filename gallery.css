@@ -1,12 +1,15 @@
 body > main > article > ul {
     padding-inline: 0;
     list-style: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 200px);
+    /*display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);*/
 }
 
 body > main > article > ul > li {
-    margin: 5px;
+    margin: 0;
+    border: none;
+    padding: 0;
+    max-width: 100%;
 }
 
 body > main > article > ul > li > img {
