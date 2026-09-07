@@ -9,6 +9,10 @@ jobs:
     steps:
       - name: checkout repository
         uses: actions/checkout@v4
+      - name:
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
       - name: install rclone
         run: |
           sudo curl https://rclone.org/install.sh | sudo bash
