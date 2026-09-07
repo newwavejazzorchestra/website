@@ -25,7 +25,7 @@ jobs:
           EOF
       - name: sync resources
         run: |
-          rclone sync gdrive:resources resources --progress
+          rclone sync "Google Drive":resources resources --progress
       - name: generate gallery index
         run: |
           node .github/workflows/src/script/GalleryIndexGenerator.js
