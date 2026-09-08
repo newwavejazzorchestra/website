@@ -53,7 +53,7 @@ body > main > article > member-list > ul > li > dl > dd:nth-of-type(1) {
     border: none;
     padding: 0;
     width: 50%;
-    height: 100%;
+    aspect-ratio: 1;
     position: absolute;
     top: 0;
     right: 0;
@@ -75,6 +75,7 @@ body > main > article > member-list > ul > li > dl > dd:nth-of-type(4) {
 body > main > article > member-list > ul > li > dl > dd > img {
     margin: 0;
     border: none;
-    padding: 0;
-    height: 100%;
+    padding-inline: 0;
+    padding-block: 5px;
+    height: calc(100% - 10px);
 }
