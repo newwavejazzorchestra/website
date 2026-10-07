@@ -12,6 +12,14 @@ body > main > article > ul > li {
     display: inline-block;
 }
 
+body > main > article > ul > li:hover {
+    filter: brightness(75%);
+}
+
+body > main > article > ul > li:active {
+    filter: brightness(50%);
+}
+
 body > main > article > ul > li > button {
     border: none;
     background-color: var(--background-color);
