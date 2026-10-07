@@ -19,9 +19,10 @@ class AboutUs extends HTMLElement {
         .then(text => {
             let parser = new DOMParser();
             let dom = parser.parseFromString(text, "text/xml");
+            let aboutUs = dom.querySelector("about-us");
 
-            let paragraph = dom.querySelector("paragraph");
-            this.insertAdjacentHTML("beforebegin", paragraph.textContent);
+            let paragraph = aboutUs.querySelector("paragraph").textContent;
+            this.insertAdjacentHTML("beforebegin", paragraph);
             this.remove();
         });
     }

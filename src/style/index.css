@@ -1,0 +1,43 @@
+body > main > article > img {
+    width: 55%;
+    position: float;
+    float: right;
+}
+
+body > main > article > nav {
+    clear: both;
+}
+
+body > main > article > nav > ul {
+    margin-inline: 0;
+    border: none;
+    padding: 0;
+    list-style: none;
+}
+
+body > main > article > nav > ul > li {
+    margin-inline: 0;
+    margin-block: 10px;
+    border: none;
+    padding: 0;
+    background-color: var(--background-color);
+}
+
+body > main > article > nav > ul > li > a {
+    text-decoration: none;
+}
+
+body > main > article > nav > ul > li:hover {
+    filter: brightness(75%);
+}
+
+body > main > article > nav > ul > li:active {
+    filter: brightness(50%);
+}
+
+body > main > article > nav > ul > li > a > svg {
+    height: 1em;
+    aspect-ratio: 1;
+    display: inline;
+    stroke: var(--text-color);
+}
