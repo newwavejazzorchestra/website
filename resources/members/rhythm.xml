@@ -2,10 +2,24 @@
 <members>
     <member>
         <image></image>
-        <grade>E</grade>
+        <grade>G</grade>
         <instrument>Bass</instrument>
         <nickname></nickname>
         <name></name>
+    </member>
+    <member>
+        <image></image>
+        <grade>F</grade>
+        <instrument>Bass</instrument>
+        <nickname>がらし</nickname>
+        <name>五十嵐 康誠</name>
+    </member>
+    <member>
+        <image></image>
+        <grade>E</grade>
+        <instrument>Bass</instrument>
+        <nickname>デイジー</nickname>
+        <name>石川 茉奈</name>
     </member>
     <member>
         <image></image>
@@ -25,8 +39,8 @@
         <image></image>
         <grade>E</grade>
         <instrument>Guitar</instrument>
-        <nickname></nickname>
-        <name></name>
+        <nickname>のぶかつ</nickname>
+        <name>大石 弘人</name>
     </member>
     <member>
         <image>ETA.jpg</image>
@@ -53,8 +67,8 @@
         <image></image>
         <grade>E</grade>
         <instrument>Drums</instrument>
-        <nickname></nickname>
-        <name></name>
+        <nickname>ワトソン</nickname>
+        <name>和田 圭右</name>
     </member>
     <member>
         <image>マツ崎モドキ.jpg</image>
@@ -81,8 +95,15 @@
         <image></image>
         <grade>E</grade>
         <instrument>Piano</instrument>
-        <nickname></nickname>
-        <name></name>
+        <nickname>わっさー</nickname>
+        <name>高橋 潤太朗</name>
+    </member>
+    <member>
+        <image></image>
+        <grade>E</grade>
+        <instrument>Piano</instrument>
+        <nickname>トライセップス・ブラキアイ</nickname>
+        <name>佐藤 駿成</name>
     </member>
     <member>
         <image></image>
