@@ -2,13 +2,49 @@
 <articles>
     <article>
         <image></image>
-        <title>This is title.</title>
-        <dates>2026-06-06 , 2026-07-22</dates>
+        <title></title>
+        <dates></dates>
         <paragraph>
             <![CDATA[
                 <p>
-                    This is paragraph.<br>
-                    You can use any HTML tags.
+                </p>
+            ]]>
+        </paragraph>
+    </article>
+
+    <article>
+        <image></image>
+        <title></title>
+        <dates></dates>
+        <paragraph>
+            <![CDATA[
+                <p>
+                </p>
+            ]]>
+        </paragraph>
+    </article>
+
+    <article>
+        <image>images/2026/夏合宿.jpg</image>
+        <title>夏合宿</title>
+        <dates>2026-08-09/2026-08-13</dates>
+        <paragraph>
+            <![CDATA[
+                <p>
+                    8月の9日から13日まで、群馬県のロッヂ白い鳥にて４泊５日の夏合宿を行いました。パート練習や全体練習で皆とても上達したと思います。練習だけでなくレクリエーションや花火なども行い、親睦を深められました！
+                </p>
+            ]]>
+        </paragraph>
+    </article>
+
+    <article>
+        <image>images/2026/専明お披露目.jpg</image>
+        <title>専修明治合同お披露目ライブ</title>
+        <dates>2026-06-14</dates>
+        <paragraph>
+            <![CDATA[
+                <p>
+                    6月14日に専修大学と合同でお披露目ライブを行いました！新入生にとっては初めてのライブでした！専修大学Green Sounds Orchestraのみなさん、ありがとうございました！
                 </p>
             ]]>
         </paragraph>
@@ -20,7 +56,7 @@
         <paragraph>
             <![CDATA[
                 <p>
-                    4月の3日と8日に新歓ライブをやりました。新入生の皆さん、よかったら是非NWJOに入ってください！メンバー一同、心待ちにしております!
+                    4月の3日と8日に新歓ライブをやりました。新入生の皆さん、よかったら是非NWJOに入ってください！メンバー一同、心待ちにしております！
                 </p>
             ]]>
         </paragraph>
