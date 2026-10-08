@@ -1,29 +1,17 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <articles>
     <article>
-        <image></image>
-        <title></title>
-        <dates></dates>
+        <image>images/2026/ステラジャム.jpg</image>
+        <title>第16回 STELLAR JAM</title>
+        <dates>2026-09-10/2026-09-12</dates>
         <paragraph>
             <![CDATA[
                 <p>
+                    河口湖ステラシアターにて第16回になるステラジャムに我々NWJOも参加してきました。惜しくも入賞は逃してしまいましたが、皆と一緒に有意義な時間を過ごすことができたと思います。応援してくださった皆様、本当にありがとうございました！
                 </p>
             ]]>
         </paragraph>
     </article>
-
-    <article>
-        <image></image>
-        <title></title>
-        <dates></dates>
-        <paragraph>
-            <![CDATA[
-                <p>
-                </p>
-            ]]>
-        </paragraph>
-    </article>
-
     <article>
         <image>images/2026/夏合宿.jpg</image>
         <title>夏合宿</title>
@@ -36,7 +24,6 @@
             ]]>
         </paragraph>
     </article>
-
     <article>
         <image>images/2026/専明お披露目.jpg</image>
         <title>専修明治合同お披露目ライブ</title>
