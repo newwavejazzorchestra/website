@@ -1,11 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <members>
     <member>
-        <image></image>
-        <grade>E</grade>
+        <image>コナミ.jpg</image>
+        <grade>G</grade>
         <instrument>Tenor Trombone</instrument>
-        <nickname></nickname>
-        <name></name>
+        <nickname>コナミ</nickname>
+        <name>中川 大成</name>
     </member>
     <member>
         <image></image>
@@ -23,24 +23,31 @@
     </member>
     <member>
         <image></image>
-        <grade>D</grade>
+        <grade>E</grade>
         <instrument>Tenor Trombone</instrument>
         <nickname></nickname>
         <name></name>
     </member>
     <member>
-        <image></image>
+        <image>ジャック.jpg</image>
         <grade>D</grade>
         <instrument>Tenor Trombone</instrument>
-        <nickname></nickname>
-        <name></name>
+        <nickname>ジャック</nickname>
+        <name>佐野 遥紀</name>
     </member>
     <member>
-        <image></image>
+        <image>ベンジャミン.jpg</image>
         <grade>D</grade>
         <instrument>Tenor Trombone</instrument>
-        <nickname></nickname>
-        <name></name>
+        <nickname>ベンジャミン</nickname>
+        <name>名倉 優</name>
+    </member>
+    <member>
+        <image>すずまる.jpg</image>
+        <grade>D</grade>
+        <instrument>Tenor Trombone</instrument>
+        <nickname>すずまる</nickname>
+        <name>小谷 明暉</name>
     </member>
     <member>
         <image></image>
@@ -71,10 +78,10 @@
         <name></name>
     </member>
     <member>
-        <image></image>
+        <image>クアトロ.jpg</image>
         <grade>D</grade>
         <instrument>Bass Trombone</instrument>
-        <nickname></nickname>
-        <name></name>
+        <nickname>クアトロ</nickname>
+        <name>中村 恒喜</name>
     </member>
 </members>
