@@ -1,41 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <members>
     <member>
-        <image></image>
-        <grade>E</grade>
-        <instrument>Trumpet</instrument>
-        <nickname></nickname>
-        <name></name>
-    </member>
-    <member>
-        <image></image>
-        <grade>E</grade>
-        <instrument>Trumpet</instrument>
-        <nickname></nickname>
-        <name></name>
-    </member>
-    <member>
-        <image></image>
-        <grade>E</grade>
-        <instrument>Trumpet</instrument>
-        <nickname></nickname>
-        <name></name>
-    </member>
-    <member>
-        <image></image>
-        <grade>D</grade>
-        <instrument>Trumpet</instrument>
-        <nickname></nickname>
-        <name></name>
-    </member>
-    <member>
-        <image></image>
-        <grade>D</grade>
-        <instrument>Trumpet</instrument>
-        <nickname></nickname>
-        <name></name>
-    </member>
-    <member>
         <image>シア.jpg</image>
         <grade>D</grade>
         <instrument>Trumpet</instrument>
@@ -48,33 +13,5 @@
         <instrument>Trumpet</instrument>
         <nickname>利休</nickname>
         <name>鈴木 太晴</name>
-    </member>
-    <member>
-        <image></image>
-        <grade>C</grade>
-        <instrument>Trumpet</instrument>
-        <nickname></nickname>
-        <name></name>
-    </member>
-    <member>
-        <image></image>
-        <grade>C</grade>
-        <instrument>Trumpet</instrument>
-        <nickname></nickname>
-        <name></name>
-    </member>
-    <member>
-        <image></image>
-        <grade>C</grade>
-        <instrument>Trumpet</instrument>
-        <nickname></nickname>
-        <name></name>
-    </member>
-    <member>
-        <image></image>
-        <grade>C</grade>
-        <instrument>Trumpet</instrument>
-        <nickname></nickname>
-        <name></name>
     </member>
 </members>
