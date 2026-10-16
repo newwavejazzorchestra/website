@@ -1,6 +1,34 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <members>
     <member>
+        <image>コジコジ.jpg</image>
+        <grade>E</grade>
+        <instrument>Trumpet</instrument>
+        <nickname>コジコジ</nickname>
+        <name>谷口 奈々生</name>
+    </member>
+    <member>
+        <image>ちーの.jpg</image>
+        <grade>E</grade>
+        <instrument>Trumpet</instrument>
+        <nickname>ちーの</nickname>
+        <name>佐藤 恵瑠</name>
+    </member>
+    <member>
+        <image>ボナパルト.jpg</image>
+        <grade>E</grade>
+        <instrument>Trumpet</instrument>
+        <nickname>ボナパルト</nickname>
+        <name>北川 碧人</name>
+    </member>
+    <member>
+        <image>しゅうまお.jpg</image>
+        <grade>E</grade>
+        <instrument>Trumpet</instrument>
+        <nickname>しゅうまお</nickname>
+        <name>木塚 菜月</name>
+    </member>
+    <member>
         <image>シア.jpg</image>
         <grade>D</grade>
         <instrument>Trumpet</instrument>
