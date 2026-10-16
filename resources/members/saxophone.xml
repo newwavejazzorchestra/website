@@ -1,6 +1,13 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <members>
     <member>
+        <image>スリジャヤワルダナプラコッテ.jpg</image>
+        <grade>F</grade>
+        <instrument>Alto Saxophone</instrument>
+        <nickname>スリジャヤワルダナプラコッテ</nickname>
+        <name>王 沛然</name>
+    </member>
+    <member>
         <image>NOBUNAGA.jpg</image>
         <grade>E</grade>
         <instrument>Alto Saxophone</instrument>
@@ -13,6 +20,13 @@
         <instrument>Alto Saxophone</instrument>
         <nickname>キャロライナリーパー</nickname>
         <name>白 鉄然</name>
+    </member>
+    <member>
+        <image>オーキド・ユキナリ.jpg</image>
+        <grade>F♭</grade>
+        <instrument>Tenor Saxophone</instrument>
+        <nickname>オーキド・ユキナリ</nickname>
+        <name>山口 晃弘</name>
     </member>
     <member>
         <image>燈.jpg</image>
